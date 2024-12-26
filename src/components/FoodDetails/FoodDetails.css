@@ -1,0 +1,152 @@
+.food-details {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    h2 {
+        font-size: max(2vw, 24px);
+        font-weight: 600;
+        margin-top: 20px;
+        text-align: center;
+    }
+    p {
+        margin: 20px 0;
+    }
+    h3 {
+        margin: 10px 0;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.food-details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.food-details-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-details-image {
+    width: 100%;
+    border-radius: 15px;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.food-details-info {
+    text-align: center;
+}
+
+.food-details-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.food-details-description {
+    color: #676767;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.food-details-price {
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.food-details-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.food-details-counter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    border-radius: 20%;
+    background-color: white;
+}
+
+.food-details-counter button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.food-details-stars {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-details-stars svg {
+    font-size: 1.5rem; 
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: #f5a623; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+  
+.back-btn:hover {
+    background-color: #d4881d; 
+    transform: scale(1.05);
+}
+  
+.back-btn:active {
+    transform: scale(0.95);
+}
+
+.food-card {
+    li {
+        list-style: none;
+        margin: 10px 0;
+    }
+}
+
+.food-directions {
+    h4 {
+        margin: 20px 0;
+        font-weight: 800;
+    }
+    li {
+        margin: 10px 0;
+    }
+}
+
+.ingredient-name {
+    font-weight: bold; 
+    color: #901818; 
+    text-transform: capitalize; 
+    margin-right: 5px; 
+}
+
+.food-caption {
+    font-style: italic;
+}
+  
