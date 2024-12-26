@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./FoodItem.css";
+import "./Fooditem.css";
 import { StoreContext } from "../../context/StoreContext";
 import { FaStar, FaRegStar } from "react-icons/fa";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
